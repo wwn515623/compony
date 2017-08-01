@@ -1,0 +1,137 @@
+body{
+	background:url('../images/login_background.jpg')no-repeat center fixed;
+	background-size:cover;
+	font-family:"微软雅黑";
+}
+.registerAll,.loginAll{
+	width: 400px;
+	position:absolute;
+	top: 200px;
+	right:300px;
+	box-shadow:0 0 20px grey;
+	padding:35px 20px;
+	background:#fff;
+	box-sizing: border-box;
+	border-top:1px solid #AE4E4C;
+}
+.register,.login{
+	border-left:4px solid #E8868B;
+	padding-left:7px;
+	font-weight:bold;
+	margin-bottom: 15px;
+}
+.tel,.user{
+	border:1px solid #AE4E4C;
+	margin-top:30px;
+	border-radius:4px;
+	box-sizing: border-box;
+	display: flex;
+}
+.teltop,.usertop{
+	margin-top:10px;
+}
+.iconAll{
+	padding:5px 10px;
+	background:#F2DEDE;
+}
+.icon{
+	font-size:30px;
+	color:#a94442;
+}
+.line{
+	border-right:1px solid #AE4E4C;
+}
+.tel input,.user input,.loginCode input{
+	border:none;
+	margin-left:5px;
+	font-size:16px;
+	padding-left:5px;
+}
+p{
+	color:#AE4E4C;
+	font-size:12px;
+	margin:5px 0px 10px;
+}
+.checkcode{
+	width:48%;
+	margin-top:10px;
+}
+.checkcode .left{
+	padding:5px 10px;
+	background:#F2DEDE;
+}
+#checkcode{
+	width:40%;
+	
+}
+#btncode{
+	width:48%;
+	background:#E2454E;
+	color:#fff;
+	border:none;
+	margin-left:10px;
+	border-radius:4px;
+	margin-top:9px;
+	font-size:16px;
+}
+.code{
+	display:flex;
+}
+/* 注册获取验证码 */
+#code{
+	background:#eee;
+	border-radius:4px;
+	margin:10px 0 0 10px;
+	padding:10px 5px;
+	display:none;
+}
+.password{
+	margin-top:15px;
+}
+#btnAgree,#login{
+	background:#E2454E;
+	color:#fff;
+	border:none;
+	border-radius:4px;
+	margin-top:9px;
+	width:100%;
+	font-size:16px;
+	padding:10px 0;
+	margin-bottom:5px;
+}
+.registerAll a,.loginAll a{
+	text-decoration:none;
+	color:#438BCA;
+	font-size:12px;
+}
+.registerAll span,.loginAll span{
+	float:right;
+}
+.keyboard{
+	background:#fff;
+	margin-left:50px;
+}
+.loginCode{
+	width:65%;
+	border:1px solid #AE4E4C;
+	border-radius:4px;
+	display: flex;
+}
+.loginCode input{
+	padding:10px 5px ;
+	width:50%;
+}
+.loginCodeAll{
+	display:flex;
+}
+.loginCodeAll a{
+	display:block;
+	margin-left:10px;
+	padding: 10px 0 ;
+}
+
+.error{color:red;}
+.correct{color:green;}
+input{
+	outline:medium;
+}
